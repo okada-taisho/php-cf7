@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  place-items: center;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.content__h2 {
+  width: calc(100% / 3 - 1rem / 2);
+  font-size: 16px;
+}
+
+.content__input {
+  width: calc(100% / 3 * 2 - 1rem / 2);
+  padding: 0.5rem;
+}
+
+.submit {
+  margin-top: 2rem;
+}
